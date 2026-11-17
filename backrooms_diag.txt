@@ -1,0 +1,14 @@
+[Diag]
+Player pos (0.00, -1.32, 0.00) col=Center: (0.00, -1.32, 0.00), Extents: (0.41, 1.00, 0.41)
+  hit Ceiling (root Backrooms_Lighting) y=0,88 n=(0.00, 1.00, 0.00) trigger=False
+  hit Body (root PlayerEntity) y=-0,32 n=(0.00, 1.00, 0.00) trigger=False
+  hit Plane (root Plane) y=-2,32 n=(0.00, 1.00, 0.00) trigger=False
+  NavMesh nearest to player: (0.00, -2.24, 0.00)
+Lights on: False
+Camera (0.00, -0.88, 0.00) fwd (-0.88, 0.28, -0.38); enemy viewport (2.21, 0.07, 2.42); blocked=False
+Enemy pos (-4.81, -2.24, 4.80)
+  renderer Quad enabled=True active=True bounds=Center: (-4.81, -0.86, 4.80), Extents: (0.97, 1.38, 0.97) mat=images (32) shader=Universal Render Pipeline/Lit
+  agent baseOffset=0 height=2
+Collider Ceiling BoxCollider bounds min=(-13.85, 0.68, -24.45) max=(18.80, 0.88, 13.59)
+Collider Plane MeshCollider bounds min=(-48.37, -2.32, -48.37) max=(48.37, -2.32, 48.37)
+Collider Untitled MeshCollider bounds min=(-12.85, -2.30, -23.45) max=(17.80, 2.75, 12.59)
